@@ -1,0 +1,121 @@
+route_id,shipment_id,profile,hubs,total_cost,transit_days,delay_probability,congestion_risk,geopolitical_risk,weather_risk,security_risk,risk_score
+SH001_R1,SH001,economical,Hyderabad -> Mumbai -> Suez Canal -> London,573036.67,25.23,0.4378,70.82,36.04,22.04,41.05,55.19
+SH001_R2,SH001,express,Hyderabad -> Colombo -> Suez Canal -> London,854117.2,15.41,0.4769,55.53,58.07,31.59,68.1,46.64
+SH001_R3,SH001,balanced,Hyderabad -> Singapore -> Rotterdam -> London,713984.58,20.45,0.1566,20.57,37.67,8.29,15.03,18.86
+SH001_R4,SH001,alternative,Hyderabad -> Dubai -> Mediterranean Hub -> London,769508.39,19.37,0.5131,82.4,27.81,32.78,35.52,49.38
+SH002_R1,SH002,economical,Mumbai -> Colombo -> Suez Canal -> Rotterdam,312235.24,17.54,0.2801,59.6,14.78,19.99,5.48,36.7
+SH002_R2,SH002,express,Mumbai -> Singapore -> Rotterdam -> Rotterdam,527880.09,10.93,0.5499,61.41,59.65,39.42,41.97,43.62
+SH002_R3,SH002,balanced,Mumbai -> Dubai -> Mediterranean Hub -> Rotterdam,380517.18,13.79,0.4641,58.47,37.98,47.39,54.72,46.17
+SH002_R4,SH002,alternative,Mumbai -> Hong Kong -> Panama Canal -> Rotterdam,440058.84,13.69,0.2361,49.74,26.28,7.31,33.39,35.13
+SH003_R1,SH003,economical,Chennai -> Singapore -> Rotterdam -> Singapore,322783.64,24.95,0.0957,18.36,6.59,11.75,51.95,33.91
+SH003_R2,SH003,express,Chennai -> Dubai -> Mediterranean Hub -> Singapore,527461.51,14.02,0.3246,45.08,15.66,57.22,34.0,27.91
+SH003_R3,SH003,balanced,Chennai -> Hong Kong -> Panama Canal -> Singapore,402446.42,18.97,0.2901,55.42,30.33,11.57,12.67,25.44
+SH003_R4,SH003,alternative,Chennai -> Jebel Ali -> Antwerp -> Singapore,468715.58,19.14,0.5287,60.98,23.61,77.69,55.62,56.77
+SH004_R1,SH004,economical,Delhi -> Dubai -> Mediterranean Hub -> New York,540373.75,25.66,0.4017,39.57,48.91,48.81,47.24,58.14
+SH004_R2,SH004,express,Delhi -> Hong Kong -> Panama Canal -> New York,820407.95,14.94,0.1634,8.33,39.58,29.74,14.39,15.5
+SH004_R3,SH004,balanced,Delhi -> Jebel Ali -> Antwerp -> New York,632331.36,20.26,0.366,18.65,69.76,48.58,27.55,39.19
+SH004_R4,SH004,alternative,Delhi -> Singapore -> Suez Canal -> New York,730874.52,18.17,0.6672,81.68,38.76,63.71,10.38,52.38
+SH005_R1,SH005,economical,Bengaluru -> Hong Kong -> Panama Canal -> Frankfurt,451882.99,25.1,0.3299,49.32,12.6,55.42,23.28,45.01
+SH005_R2,SH005,express,Bengaluru -> Jebel Ali -> Antwerp -> Frankfurt,717588.38,15.98,0.4984,66.49,12.54,73.7,19.96,32.12
+SH005_R3,SH005,balanced,Bengaluru -> Singapore -> Suez Canal -> Frankfurt,518195.44,20.95,0.4967,34.67,63.09,65.62,25.61,44.12
+SH005_R4,SH005,alternative,Bengaluru -> Colombo -> Rotterdam -> Frankfurt,624730.16,19.38,0.4245,46.2,22.92,75.2,15.7,42.39
+SH006_R1,SH006,economical,Shanghai -> Jebel Ali -> Antwerp -> Los Angeles,254705.07,23.78,0.5419,64.74,23.37,75.26,20.66,55.42
+SH006_R2,SH006,express,Shanghai -> Singapore -> Suez Canal -> Los Angeles,403378.22,15.37,0.1819,17.26,17.55,49.95,61.85,27.03
+SH006_R3,SH006,balanced,Shanghai -> Colombo -> Rotterdam -> Los Angeles,312666.68,19.46,0.6531,67.19,73.03,42.56,14.35,47.81
+SH006_R4,SH006,alternative,Shanghai -> Mumbai -> Suez Canal -> Los Angeles,337460.12,18.33,0.1892,15.55,52.44,14.14,37.91,36.92
+SH007_R1,SH007,economical,Tokyo -> Singapore -> Suez Canal -> Sydney,541292.82,27.48,0.4491,78.98,6.74,46.64,46.21,54.65
+SH007_R2,SH007,express,Tokyo -> Colombo -> Rotterdam -> Sydney,808115.89,16.24,0.5041,38.53,72.64,49.7,65.65,49.78
+SH007_R3,SH007,balanced,Tokyo -> Mumbai -> Suez Canal -> Sydney,666827.36,22.39,0.2699,67.78,6.25,13.19,58.91,33.19
+SH007_R4,SH007,alternative,Tokyo -> Colombo -> Suez Canal -> Sydney,732973.1,20.77,0.5228,47.46,47.42,70.08,44.2,56.16
+SH008_R1,SH008,economical,Dubai -> Colombo -> Rotterdam -> Amsterdam,387473.02,23.64,0.2632,16.69,62.73,28.28,14.35,44.23
+SH008_R2,SH008,express,Dubai -> Mumbai -> Suez Canal -> Amsterdam,685878.6,13.58,0.1398,27.78,15.75,13.66,6.37,8.0
+SH008_R3,SH008,balanced,Dubai -> Colombo -> Suez Canal -> Amsterdam,483776.09,18.13,0.2511,9.27,46.38,56.05,30.59,32.09
+SH008_R4,SH008,alternative,Dubai -> Singapore -> Rotterdam -> Amsterdam,546778.03,17.81,0.5402,75.0,64.58,8.26,16.8,48.98
+SH009_R1,SH009,economical,Kolkata -> Mumbai -> Suez Canal -> Hamburg,348174.67,21.6,0.6454,69.16,59.56,53.19,55.63,71.71
+SH009_R2,SH009,express,Kolkata -> Colombo -> Suez Canal -> Hamburg,524008.04,12.41,0.4799,46.14,65.03,39.71,30.03,38.49
+SH009_R3,SH009,balanced,Kolkata -> Singapore -> Rotterdam -> Hamburg,424211.38,16.1,0.2043,16.18,38.45,36.27,20.12,24.86
+SH009_R4,SH009,alternative,Kolkata -> Dubai -> Mediterranean Hub -> Hamburg,454112.44,15.46,0.3089,31.2,31.56,56.43,24.3,39.63
+SH010_R1,SH010,economical,Singapore -> Colombo -> Suez Canal -> Toronto,634095.82,34.56,0.4782,60.58,65.25,14.91,44.93,60.94
+SH010_R2,SH010,express,Singapore -> Singapore -> Rotterdam -> Toronto,965993.61,21.85,0.2302,11.76,70.52,15.31,67.33,35.99
+SH010_R3,SH010,balanced,Singapore -> Dubai -> Mediterranean Hub -> Toronto,797730.31,28.76,0.7153,67.61,60.66,75.95,21.47,52.66
+SH010_R4,SH010,alternative,Singapore -> Hong Kong -> Panama Canal -> Toronto,859545.17,25.97,0.3484,54.29,16.99,47.37,42.21,43.7
+SH011_R1,SH011,economical,Hyderabad -> Singapore -> Rotterdam -> London,422923.57,27.49,0.5159,58.7,28.35,72.38,54.56,63.3
+SH011_R2,SH011,express,Hyderabad -> Dubai -> Mediterranean Hub -> London,676990.94,15.84,0.1524,30.16,16.03,16.08,65.85,24.03
+SH011_R3,SH011,balanced,Hyderabad -> Hong Kong -> Panama Canal -> London,529682.91,21.16,0.6223,63.37,43.71,75.21,55.72,54.93
+SH011_R4,SH011,alternative,Hyderabad -> Jebel Ali -> Antwerp -> London,585082.29,20.09,0.7752,83.93,55.24,76.34,12.7,61.0
+SH012_R1,SH012,economical,Mumbai -> Dubai -> Mediterranean Hub -> Rotterdam,568721.03,30.56,0.5284,67.5,12.74,79.78,62.15,64.19
+SH012_R2,SH012,express,Mumbai -> Hong Kong -> Panama Canal -> Rotterdam,922472.77,18.19,0.38,13.51,74.94,54.93,47.26,40.66
+SH012_R3,SH012,balanced,Mumbai -> Jebel Ali -> Antwerp -> Rotterdam,695562.86,24.4,0.1009,7.32,21.86,15.73,55.49,22.41
+SH012_R4,SH012,alternative,Mumbai -> Singapore -> Suez Canal -> Rotterdam,773716.45,23.21,0.2066,57.5,7.53,5.41,8.36,24.81
+SH013_R1,SH013,economical,Chennai -> Hong Kong -> Panama Canal -> Singapore,467984.93,31.79,0.4867,45.36,57.16,52.25,60.32,66.02
+SH013_R2,SH013,express,Chennai -> Jebel Ali -> Antwerp -> Singapore,756825.19,20.29,0.2343,20.44,23.95,58.24,68.71,33.12
+SH013_R3,SH013,balanced,Chennai -> Singapore -> Suez Canal -> Singapore,609688.25,25.25,0.3943,54.3,7.96,71.31,51.12,40.01
+SH013_R4,SH013,alternative,Chennai -> Colombo -> Rotterdam -> Singapore,641578.76,24.08,0.3561,19.68,73.6,39.39,55.97,53.87
+SH014_R1,SH014,economical,Delhi -> Jebel Ali -> Antwerp -> New York,489817.23,27.81,0.1203,14.54,14.39,25.86,24.81,31.32
+SH014_R2,SH014,express,Delhi -> Singapore -> Suez Canal -> New York,797871.25,16.91,0.3865,55.77,33.83,35.66,19.15,28.01
+SH014_R3,SH014,balanced,Delhi -> Colombo -> Rotterdam -> New York,623663.3,21.9,0.1712,7.88,34.29,40.56,19.66,22.29
+SH014_R4,SH014,alternative,Delhi -> Mumbai -> Suez Canal -> New York,684951.91,21.33,0.5608,61.16,50.36,53.93,25.55,52.57
+SH015_R1,SH015,economical,Bengaluru -> Singapore -> Suez Canal -> Frankfurt,571614.88,26.85,0.4299,71.99,39.59,13.69,9.68,47.03
+SH015_R2,SH015,express,Bengaluru -> Colombo -> Rotterdam -> Frankfurt,932672.95,15.68,0.1775,27.45,28.39,17.97,25.4,17.32
+SH015_R3,SH015,balanced,Bengaluru -> Mumbai -> Suez Canal -> Frankfurt,710552.09,20.82,0.6088,71.17,64.96,32.92,14.98,44.61
+SH015_R4,SH015,alternative,Bengaluru -> Colombo -> Suez Canal -> Frankfurt,770782.73,20.0,0.586,34.19,72.09,79.66,55.19,64.9
+SH016_R1,SH016,economical,Shanghai -> Colombo -> Rotterdam -> Los Angeles,382207.86,30.64,0.5927,72.13,74.32,15.62,34.14,63.99
+SH016_R2,SH016,express,Shanghai -> Mumbai -> Suez Canal -> Los Angeles,585763.94,17.52,0.4688,65.43,35.36,40.2,14.79,30.7
+SH016_R3,SH016,balanced,Shanghai -> Colombo -> Suez Canal -> Los Angeles,440947.58,25.37,0.1193,8.57,21.3,26.9,36.86,20.13
+SH016_R4,SH016,alternative,Shanghai -> Singapore -> Rotterdam -> Los Angeles,505359.98,23.14,0.2166,11.73,22.06,68.27,46.44,39.81
+SH017_R1,SH017,economical,Tokyo -> Mumbai -> Suez Canal -> Sydney,499899.03,31.31,0.4797,51.97,64.52,30.54,37.42,59.81
+SH017_R2,SH017,express,Tokyo -> Colombo -> Suez Canal -> Sydney,814497.29,17.33,0.4882,36.88,69.21,52.31,16.54,36.58
+SH017_R3,SH017,balanced,Tokyo -> Singapore -> Rotterdam -> Sydney,614509.86,23.32,0.2714,6.99,69.92,38.62,24.99,33.69
+SH017_R4,SH017,alternative,Tokyo -> Dubai -> Mediterranean Hub -> Sydney,693797.68,21.73,0.3647,27.24,54.21,52.53,68.82,55.79
+SH018_R1,SH018,economical,Dubai -> Colombo -> Suez Canal -> Amsterdam,490735.31,26.14,0.6888,82.59,73.92,26.62,52.69,73.32
+SH018_R2,SH018,express,Dubai -> Singapore -> Rotterdam -> Amsterdam,813062.02,15.21,0.1771,14.91,7.87,63.3,36.83,19.96
+SH018_R3,SH018,balanced,Dubai -> Dubai -> Mediterranean Hub -> Amsterdam,639805.49,20.52,0.6587,83.23,33.81,64.53,10.51,43.48
+SH018_R4,SH018,alternative,Dubai -> Hong Kong -> Panama Canal -> Amsterdam,674919.31,20.16,0.5541,78.98,62.58,7.77,29.23,52.38
+SH019_R1,SH019,economical,Kolkata -> Singapore -> Rotterdam -> Hamburg,268772.0,16.59,0.3113,46.17,52.41,7.22,31.09,48.48
+SH019_R2,SH019,express,Kolkata -> Dubai -> Mediterranean Hub -> Hamburg,438336.11,10.66,0.3168,24.01,64.69,31.1,60.47,38.75
+SH019_R3,SH019,balanced,Kolkata -> Hong Kong -> Panama Canal -> Hamburg,317827.99,14.09,0.3607,36.76,24.24,71.49,17.19,32.06
+SH019_R4,SH019,alternative,Kolkata -> Jebel Ali -> Antwerp -> Hamburg,341970.9,13.06,0.704,62.41,61.52,79.91,24.26,61.11
+SH020_R1,SH020,economical,Singapore -> Dubai -> Mediterranean Hub -> Toronto,385725.95,17.54,0.1995,6.41,36.73,52.59,27.31,41.97
+SH020_R2,SH020,express,Singapore -> Hong Kong -> Panama Canal -> Toronto,649945.98,11.35,0.4491,65.16,42.86,26.34,63.3,42.24
+SH020_R3,SH020,balanced,Singapore -> Jebel Ali -> Antwerp -> Toronto,490620.64,14.21,0.648,77.73,42.07,60.67,43.4,52.04
+SH020_R4,SH020,alternative,Singapore -> Singapore -> Suez Canal -> Toronto,562874.25,13.46,0.1616,24.31,27.57,16.66,61.83,38.14
+SH021_R1,SH021,economical,Hyderabad -> Hong Kong -> Panama Canal -> London,342176.2,27.81,0.3523,13.15,50.7,76.65,38.33,55.41
+SH021_R2,SH021,express,Hyderabad -> Jebel Ali -> Antwerp -> London,570262.39,15.81,0.351,81.78,12.21,8.08,20.99,22.97
+SH021_R3,SH021,balanced,Hyderabad -> Singapore -> Suez Canal -> London,422436.27,22.01,0.2268,46.29,26.88,8.82,12.25,21.46
+SH021_R4,SH021,alternative,Hyderabad -> Colombo -> Rotterdam -> London,480175.2,20.08,0.3289,60.86,19.49,27.66,30.62,39.25
+SH022_R1,SH022,economical,Mumbai -> Jebel Ali -> Antwerp -> Rotterdam,396898.57,14.77,0.2991,24.4,38.59,56.24,19.84,45.88
+SH022_R2,SH022,express,Mumbai -> Singapore -> Suez Canal -> Rotterdam,649611.34,9.41,0.2259,8.89,37.25,58.37,14.78,20.77
+SH022_R3,SH022,balanced,Mumbai -> Colombo -> Rotterdam -> Rotterdam,485297.62,11.59,0.3433,78.51,5.65,19.12,7.03,23.9
+SH022_R4,SH022,alternative,Mumbai -> Mumbai -> Suez Canal -> Rotterdam,537364.22,11.57,0.3004,24.33,44.84,49.26,60.21,49.44
+SH023_R1,SH023,economical,Chennai -> Singapore -> Suez Canal -> Singapore,237503.69,35.22,0.3164,53.06,20.14,36.05,25.65,44.93
+SH023_R2,SH023,express,Chennai -> Colombo -> Rotterdam -> Singapore,376498.11,19.56,0.141,32.72,6.33,17.41,52.14,18.6
+SH023_R3,SH023,balanced,Chennai -> Mumbai -> Suez Canal -> Singapore,308662.77,28.01,0.4289,30.37,67.3,49.54,13.19,37.99
+SH023_R4,SH023,alternative,Chennai -> Colombo -> Suez Canal -> Singapore,320757.57,26.49,0.3522,18.84,40.51,79.38,5.26,39.05
+SH024_R1,SH024,economical,Delhi -> Colombo -> Rotterdam -> New York,241569.93,37.96,0.4147,71.9,6.27,49.68,20.03,46.8
+SH024_R2,SH024,express,Delhi -> Mumbai -> Suez Canal -> New York,415761.46,21.85,0.4145,53.86,43.75,34.71,49.05,37.79
+SH024_R3,SH024,balanced,Delhi -> Colombo -> Suez Canal -> New York,315250.15,30.08,0.6266,65.67,73.84,36.45,38.45,52.47
+SH024_R4,SH024,alternative,Delhi -> Singapore -> Rotterdam -> New York,322585.82,29.22,0.2593,46.62,33.56,12.06,62.83,44.84
+SH025_R1,SH025,economical,Bengaluru -> Mumbai -> Suez Canal -> Frankfurt,413061.96,29.99,0.5203,46.36,56.92,59.84,55.89,66.61
+SH025_R2,SH025,express,Bengaluru -> Colombo -> Suez Canal -> Frankfurt,651277.71,17.49,0.7477,77.32,65.59,64.86,11.49,46.85
+SH025_R3,SH025,balanced,Bengaluru -> Singapore -> Rotterdam -> Frankfurt,482797.28,24.88,0.2678,6.85,73.55,33.29,51.76,40.37
+SH025_R4,SH025,alternative,Bengaluru -> Dubai -> Mediterranean Hub -> Frankfurt,568463.96,22.83,0.3427,30.53,47.61,48.57,31.59,44.53
+SH026_R1,SH026,economical,Shanghai -> Colombo -> Suez Canal -> Los Angeles,492896.12,37.42,0.1558,27.25,19.15,18.93,38.93,38.08
+SH026_R2,SH026,express,Shanghai -> Singapore -> Rotterdam -> Los Angeles,778686.45,21.11,0.2822,8.61,38.7,76.95,47.41,33.01
+SH026_R3,SH026,balanced,Shanghai -> Dubai -> Mediterranean Hub -> Los Angeles,600617.37,27.71,0.2742,25.19,25.63,62.36,61.99,38.96
+SH026_R4,SH026,alternative,Shanghai -> Hong Kong -> Panama Canal -> Los Angeles,687523.68,28.72,0.631,83.59,71.71,10.39,13.96,52.98
+SH027_R1,SH027,economical,Tokyo -> Singapore -> Rotterdam -> Sydney,370293.28,26.88,0.3538,34.7,33.34,62.0,55.2,56.88
+SH027_R2,SH027,express,Tokyo -> Dubai -> Mediterranean Hub -> Sydney,570666.71,17.19,0.2268,14.65,67.73,12.53,22.2,24.04
+SH027_R3,SH027,balanced,Tokyo -> Hong Kong -> Panama Canal -> Sydney,467902.18,21.25,0.2611,38.09,36.49,23.39,51.17,34.94
+SH027_R4,SH027,alternative,Tokyo -> Jebel Ali -> Antwerp -> Sydney,514933.96,21.64,0.2529,32.15,42.16,23.63,20.91,35.64
+SH028_R1,SH028,economical,Dubai -> Dubai -> Mediterranean Hub -> Amsterdam,318272.7,36.09,0.5066,81.26,16.45,46.58,18.5,51.19
+SH028_R2,SH028,express,Dubai -> Hong Kong -> Panama Canal -> Amsterdam,482602.34,20.67,0.2779,14.52,69.18,29.11,44.53,33.34
+SH028_R3,SH028,balanced,Dubai -> Jebel Ali -> Antwerp -> Amsterdam,379295.37,28.63,0.426,47.55,18.11,79.15,58.19,44.7
+SH028_R4,SH028,alternative,Dubai -> Singapore -> Suez Canal -> Amsterdam,428805.89,27.39,0.2973,17.23,69.45,30.6,8.26,38.33
+SH029_R1,SH029,economical,Kolkata -> Hong Kong -> Panama Canal -> Hamburg,368702.11,31.44,0.1885,41.66,14.03,16.42,46.1,41.43
+SH029_R2,SH029,express,Kolkata -> Jebel Ali -> Antwerp -> Hamburg,606003.52,20.56,0.3457,30.53,55.83,39.58,47.9,36.27
+SH029_R3,SH029,balanced,Kolkata -> Singapore -> Suez Canal -> Hamburg,475899.5,26.23,0.4555,81.0,28.99,18.29,49.08,41.88
+SH029_R4,SH029,alternative,Kolkata -> Colombo -> Rotterdam -> Hamburg,536256.36,23.84,0.5392,40.97,67.47,61.22,69.47,65.1
+SH030_R1,SH030,economical,Singapore -> Jebel Ali -> Antwerp -> Toronto,448913.37,30.29,0.2658,32.39,33.57,38.0,13.18,41.06
+SH030_R2,SH030,express,Singapore -> Singapore -> Suez Canal -> Toronto,705393.56,18.21,0.3678,57.44,51.4,6.48,26.23,29.63
+SH030_R3,SH030,balanced,Singapore -> Colombo -> Rotterdam -> Toronto,548611.8,24.54,0.5183,73.85,22.27,55.09,13.41,36.51
+SH030_R4,SH030,alternative,Singapore -> Mumbai -> Suez Canal -> Toronto,608285.84,21.87,0.4332,27.68,52.23,73.27,18.16,46.79

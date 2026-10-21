@@ -1,0 +1,10 @@
+pandas
+numpy
+streamlit
+plotly
+pytest
+langchain-core
+langchain-groq 
+pydantic
+python-dotenv
+
