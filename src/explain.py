@@ -64,7 +64,6 @@ def explain_decision(
         f"limit of {constraints['max_risk_score']}."
     )
 
-    # Explain whether the winner is the only feasible option.
     if len(ranked_routes) == 1:
         reasons.append(
             "This is the only feasible route. Its selection "
@@ -77,7 +76,6 @@ def explain_decision(
             "weighted score under the configured preferences."
         )
 
-    # Compare the recommended route with other feasible routes.
     comparison = []
 
     for alternative in ranked_routes:
@@ -116,7 +114,6 @@ def explain_decision(
             ),
         })
 
-    # Explain rejected alternatives.
     for route in rejected_routes:
         reasons.append(
             f"{route.get('route_id', 'Unknown route')} was rejected: "

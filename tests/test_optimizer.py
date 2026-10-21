@@ -59,7 +59,6 @@ def test_recommends_best_feasible_route():
 def test_returns_no_feasible_route():
     routes = make_routes()
 
-    # Every route exceeds the budget.
     routes["total_cost"] = 900000
 
     result = optimize_shipment(

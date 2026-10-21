@@ -51,7 +51,6 @@ def validate_inputs(
             f"Missing constraints: {sorted(missing_constraints)}"
         )
 
-    # Validate constraints are real, finite, non-negative numbers.
     for key in REQUIRED_CONSTRAINTS:
         value = constraints[key]
 
@@ -80,8 +79,6 @@ def validate_inputs(
 
     if routes.empty:
         return
-
-    # Validate route metrics: numeric, finite, non-negative, and in range.
     for column in NUMERIC_ROUTE_COLUMNS:
         values = pd.to_numeric(routes[column], errors="coerce")
 
@@ -125,8 +122,6 @@ def filter_feasible_routes(
 
     result = routes.copy()
 
-    # Use numeric values in comparisons, even if CSV columns were loaded
-    # as strings.
     for column in NUMERIC_ROUTE_COLUMNS:
         result[column] = pd.to_numeric(result[column], errors="raise")
 
@@ -150,7 +145,6 @@ def filter_feasible_routes(
     result["delay_ok"] = delay_ok
     result["risk_ok"] = risk_ok
 
-    # Record every reason a route was rejected.
     result["rejection_reasons"] = result.apply(
         lambda row: "; ".join(
             reason

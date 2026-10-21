@@ -50,7 +50,7 @@ def test_filters_routes_correctly():
     assert set(feasible["route_id"]) == {"R2"}
     assert set(rejected["route_id"]) == {"R1", "R3", "R4"}
 
-    # R1 exceeds the transit deadline.
+    
     assert (
         rejected.loc[
             rejected["route_id"] == "R1",
@@ -59,7 +59,7 @@ def test_filters_routes_correctly():
         == "Transit deadline exceeded"
     )
 
-    # R3 exceeds the budget.
+    
     assert (
         rejected.loc[
             rejected["route_id"] == "R3",
@@ -68,7 +68,7 @@ def test_filters_routes_correctly():
         == "Budget exceeded"
     )
 
-    # R4 exceeds the risk limit.
+    
     assert (
         rejected.loc[
             rejected["route_id"] == "R4",

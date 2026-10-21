@@ -4,10 +4,6 @@ import pandas as pd
 
 
 METRICS = ["total_cost", "transit_days", "risk_score"]
-
-# Fixed reference scales for normalization.
-# These make scores more comparable across different feasible-route sets.
-# Adjust these values to match your project's expected operating ranges.
 REFERENCE_SCALES = {
     "total_cost": (0.0, 1_000_000.0),
     "transit_days": (0.0, 60.0),

@@ -5,7 +5,6 @@ import numpy as np
 import pandas as pd
 
 
-# Reproducible synthetic dataset
 RANDOM_SEED = 42
 NUM_SHIPMENTS = 30
 ROUTES_PER_SHIPMENT = 4
@@ -40,8 +39,6 @@ HUBS = [
     ["Colombo", "Rotterdam"],
 ]
 
-# Route profiles introduce meaningful trade-offs.
-# Multipliers apply to a common baseline for each shipment.
 ROUTE_PROFILES = [
     {
         "profile": "economical",
@@ -80,7 +77,6 @@ for shipment_number in range(1, NUM_SHIPMENTS + 1):
         (shipment_number - 1) % len(LOCATIONS)
     ]
 
-    # Baseline shipment characteristics
     base_cost = rng.uniform(300_000, 800_000)
     base_days = rng.uniform(12, 30)
 
@@ -96,7 +92,6 @@ for shipment_number in range(1, NUM_SHIPMENTS + 1):
         rng.uniform(35, 65), 1
     )
 
-    # Preference weights: they always sum to 1.
     weights = rng.dirichlet([4, 3, 3])
 
     shipment_rows.append(
@@ -131,7 +126,6 @@ for shipment_number in range(1, NUM_SHIPMENTS + 1):
         weather_risk = float(rng.uniform(5, 80))
         security_risk = float(rng.uniform(5, 70))
 
-        # Composite risk score on a 0-100 scale.
         risk_score = (
             0.25 * congestion_risk
             + 0.30 * geopolitical_risk
@@ -142,7 +136,6 @@ for shipment_number in range(1, NUM_SHIPMENTS + 1):
 
         risk_score = float(np.clip(risk_score, 0, 100))
 
-        # Delay probability increases with congestion and risk.
         delay_logit = (
             -3.0
             + 0.025 * congestion_risk
